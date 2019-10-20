@@ -1,0 +1,17 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sieg Balona",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "dependencies": {
+    "@types/node": "^12.11.1",
+    "concurrently": "^5.0.0"
+  }
+}
