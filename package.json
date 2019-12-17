@@ -11,7 +11,7 @@
     "start": "concurrently npm:start:*"
   },
   "dependencies": {
-    "@types/node": "^12.11.1",
-    "concurrently": "^5.0.0"
+    "@types/node": "^12.12.18",
+    "concurrently": "^5.0.1"
   }
 }
